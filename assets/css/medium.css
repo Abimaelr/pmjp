@@ -1,0 +1,124 @@
+
+@media (max-width: 1024px)
+{
+
+    .sidebar
+    {
+        width: 37%!important;
+        right: -40%!important;
+    }
+
+    .sidebar.active
+    {
+        right: 0!important;
+    }
+
+    header .container .toggle
+    {
+        /* transform: translateX(15px); */
+    }
+
+    .sidebar ul li a
+    {
+        font-size: 22px!important;
+        font-weight: 300;  
+    }
+
+    header .container
+    {
+        /* justify-content: space-around; */
+        /* padding: 0 100px; */
+    }
+    
+    .chamada .container
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner .texto {
+        right: 50px;
+    }
+
+    .chamada .container .content
+    {
+        width: 100%;
+        padding: 0 100px;
+    }
+    .chamada .container .content h2
+    {
+        text-align: center;
+    }
+
+    .chamada .container .content p
+    {
+        text-align: center;
+    }
+
+    footer .content {
+        position: relative;
+        /* width: 300px!important; */
+        height: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        flex-wrap: wrap;
+        /* border: 1px solid blue; */
+        /* padding: 0!important; */
+    }
+    footer .logo-footer
+    {
+        margin: 20px 0;
+        /* width: 100%!important; */
+        /* border: 1px solid blue; */
+    }
+
+    footer .telefones {
+        /* width: 100%!important; */
+        padding: 0 0px;
+        margin: 20px 0;
+        /* border: 1px solid blue; */
+        width: 250px!important;
+    }
+
+    footer .acesse
+    {
+        margin: 20px 0;
+        /* width: 100%!important; */
+        /* border: 1px solid blue; */
+        margin-left: -1px;
+    }
+
+    footer .dtic
+    {
+        margin: 20px 0;
+        /* width: 100%!important; */
+        /* border: 1px solid blue; */
+    }
+
+    /* footer .txt
+    {
+        
+    } */
+
+    .chamada .container .content .btn {
+        
+        align-items: ceanter;
+    }
+
+    .cards .container .heading p {
+        padding: 0 50px;
+    }
+
+    .cards .container .heading h2 {
+        padding: 0 10px;
+    }
+
+    .chamada .container .video
+    {
+        margin-top: -20px;
+        background: transparent;
+    }
+}

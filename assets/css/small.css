@@ -1,0 +1,216 @@
+
+@media (max-width: 655px)
+{
+
+    .sidebar
+    {
+        width: 50%!important;
+        right: -55%!important;
+        /* z-index: 102!important; */
+    }
+
+    .sidebar.active
+    {
+        right: 0!important;
+    }
+
+    .sidebar ul{
+        margin-left: -15px;
+    }
+
+    .sidebar ul li
+    {
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+
+    .sidebar ul li a
+    {
+        font-size: 16px!important;
+        font-weight: 300;  
+    }
+
+    header .container
+    {
+        /* justify-content: space-around; */
+        padding: 0 100px;
+    }
+
+    header .container .toggle
+    {
+        width: 22px;
+        height: 22px;
+        /* transform: translateX(0px); */
+    }
+
+    header .container .logo
+    {
+        margin-left: left;
+        width: 150px;
+        /* left: -30px; */
+        z-index: -120px!important;
+        /* border: 1px solid red; */
+    }
+    .banner .texto {
+        right: 40px;
+        font-size: 16px;
+    }
+
+    .cards .container  {
+
+        height: auto;
+
+    }
+
+    .cards .container .heading h2 {
+        font-size: 26px;
+        padding: 0 4px;
+    }
+
+    .cards .container .heading p {
+        padding: 0 4px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .cards .container .cardsBx .cardBx p {
+        line-height: 22px;
+    }
+
+    .cards .container .cardsBx .cardBx a {
+        font-size: 14px;
+    }
+
+    .cards .container .cardsBx {
+        margin-top: 20px;
+        padding: 10px 10px;
+    }
+
+    /* video */
+
+    .modal-dialog {
+        margin: 100px auto!important;
+    }
+
+    .modal-body iframe
+    {
+        height: 250px!important;
+    }
+    /*  */
+
+    /* .chamada .container {
+        padding: 0px 0;
+    } */
+
+    .chamada .container .content {
+        width: 100%;
+        padding: 0 4px;
+    }
+
+    .chamada .container .content h2 {
+        font-size: 26px;
+        padding: 0 4px;
+    }
+
+    .chamada .container .content p {
+        padding: 0 4px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .chamada .container .video
+    {
+        margin-top: 60px;
+        background: transparent;
+    }
+
+    .chamada .container .video {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .cards .container {
+
+        margin-top: -70px!important;
+    }
+
+    /* footer */
+    footer .content {
+        position: relative;
+        /* width: 300px!important; */
+        height: 100%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        justify-content: left;
+        /* border: 1px solid blue; */
+        padding: 50px 20px!important;
+        /* padding: 0!important; */
+    }
+
+    footer .telefones {
+        /* width: 100%!important; */
+        padding: 0 0px;
+        /* margin: 20px 0; */
+        /* border: 1px solid blue; */
+        width: 250px!important;
+    }
+
+    footer .acesse
+    {
+        margin: 20px 0;
+        /* width: 100%!important; */
+        /* border: 1px solid blue; */
+        /* margin-left: -1px; */
+    }
+
+    footer .txt {
+        margin-top: 0px!important;
+    }
+
+    .ferramentas .container .heading h2
+    {
+        font-size: 26px;
+        padding: 0 4px;
+    }
+
+    .ferramentas .container .cardBx .imgBx .imgContent p
+    {
+    position: relative;
+    text-align: center;
+    font-size: 8px;
+    color: #5f6368;
+    }
+
+    #capCards .card  { 
+        display: flex;
+        max-width: 60vw;
+        min-height: 60vw;
+
+    }
+
+    #capCards .carrousel  {
+        padding: 0;
+        width: 100%;
+    }
+
+    #capCards .card .description a {
+        width: 80%;
+    }
+    
+    #capCards .card .description p {
+        margin: 0;
+    }
+
+    #capCards .card .description h5 {
+        margin: 0;
+    }
+
+    #capCards .card .cover img {
+        height: 9vw;
+    }
+
+    .gallery i{
+        padding: 0;
+      }
+}

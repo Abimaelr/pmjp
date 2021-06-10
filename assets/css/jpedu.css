@@ -1,0 +1,31 @@
+.player {
+    display: flex;
+    height: 600px;
+    background-color:#494742;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+}
+
+.tv i {
+    color: #C00812;
+    font-size: 150px;
+    transition: 200ms;
+}
+
+.tv i:hover {
+    cursor: pointer;
+    font-size: 160px;
+}
+
+.videoCover {
+    width: 300px;
+}

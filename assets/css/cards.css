@@ -1,0 +1,191 @@
+.cards
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.cards .container
+{
+    position: relative;
+    max-width: 1029px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .container .heading
+{
+    position: relative;
+    top: 0;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 10px;
+}
+
+.cards .container .heading h2
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #202129;
+}
+
+.cards .container .heading p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 150px;
+    color: #5f6368;
+    line-height: 26px;
+}
+
+.cards .container .cardsBx
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.cards .container .cardsBx .cardBx
+{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 10px;
+    /* transition: 0.5s; */
+    transition: 0.3s; 
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10px 40px;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.cards .container .cardsBx .cardBx div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cards .container .cardsBx .cardBx img
+{
+    position: relative;
+    margin-left: 45%;
+    transform: translateX(35%);
+}
+
+.cards .container .cardsBx .cardBx i
+{   
+    font-size: 72px;
+    text-align: center;
+    margin: auto;
+    color: #C00812;
+    /* position: relative; */
+    /* margin-left: 45%; */
+    /* transform: translateX(35%); */
+}
+
+.cards .container .cardsBx .cardBx h2
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: #202129;
+}
+
+.cards .container .cardsBx .cardBx img
+{
+    text-align: center;
+}
+
+.cards .container .cardsBx .cardBx a
+{
+    /* position: relative; */
+
+    font-size: 15px;
+    color: #f5f5f5;
+    margin: auto;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cards .container .cardsBx .cardBx h2
+{
+    position: relative;
+    color: #202129;
+}
+
+.cards .container .cardsBx .cardBx p
+{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: #5f6368;
+    line-height: 20px;
+}
+
+.cards .container .cardsBx .cardBx ul li
+{
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.cards .container .cardsBx .cardBx:hover
+{
+    /* transform: translateY(-8px); */
+    transform: translateY(-4px); 
+    /* box-shadow: 0 10px 20px rgba(0,0,0, 0.2); */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    cursor: default;
+}
+
+.cards .container .cardsBx .cardBx .imgBx
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cards .container .cardsBx .cardBx .imgBx img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.cards .container .cardsBx .cardBx .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C00812;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cards .container .cardsBx .cardBx .link p{
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: white;
+}

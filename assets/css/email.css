@@ -1,0 +1,60 @@
+h2{
+    text-align: center;
+
+}
+
+.btn 
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.btn button
+{
+    position: relative;
+    width: 244px;
+    height: 56px;
+    background: #C00812;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    outline: none;
+    margin: 20px 10px 20px 10px;
+    transition: 0.5s;
+}
+
+.btn button:hover
+{
+    /* transform: scaleX(1.03); */
+    cursor: pointer;
+    background: #ff1616;
+    font-weight: 900;
+    box-shadow: 0px 2px 2px #ededed;
+    transition: 500ms;
+}
+
+.btn button a
+{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
