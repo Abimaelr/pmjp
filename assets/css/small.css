@@ -181,6 +181,9 @@
     font-size: 8px;
     color: #5f6368;
     }
+    #capCards {
+        width: 100%;
+    }
 
     #capCards .card  { 
         display: flex;

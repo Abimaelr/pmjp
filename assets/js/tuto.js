@@ -566,7 +566,7 @@ classList.forEach(item => {
             listItems.className = 'carrouselList';
             carrousel.id = item.name;
             carrousel.className = 'carrousel';
-            const title = document.createElement('h3');
+            const title = document.createElement('h4');
             title.innerText = item.title;
             title.className = 'carousel_title';
 
@@ -595,7 +595,7 @@ tutoriais.forEach(item => {
     const bodyCard = document.createElement('div');
     const icon = document.createElement('img');
     // const preview = document.createElement('iframe');
-    const tittle = document.createElement('h5');
+    const tittle = document.createElement('h6');
     const description = document.createElement('p');
     const access = document.createElement('a');
 

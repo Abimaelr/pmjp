@@ -25,7 +25,7 @@
     <!-- LineAwesome -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link async href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <title>PMJP - Google</title>
 </head>
 <body>
@@ -63,82 +63,35 @@
             <div class="content">
                 <h2>Tutoriais</h2>
                 <p>Acesse os <strong>e-cards</strong> para solucionar as suas dúvidas de como utilizar as ferramentas Google.</p>
-                <hr>
             </div>
         </section>
+      
         <section id="capCards">
             <div class="gallery container">
-
+                
             </div>
+            <hr>
+            <div>
+                <h2>Galeria de Vídeos</h2>
+                <p>Listas de reprodução com os tutoriais em vídeo</p>
+                <div id="videoGal">
+                    <div class="youtube">
+                        <h5>Classroom</h5>
+                        <iframe  src="https://www.youtube.com/embed?listType=playlist&list=PLbEB0OYbh2RJ_oU4aP-Rty7g5n5Q1Tl1b&"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtube">
+                        <h5>Google Forms</h5>
+                        <iframe src="https://www.youtube.com/embed/videoseries?list=PLbEB0OYbh2RIs1kuHiz_MWzJh2grazYQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="youtube">
+                        <h5>Email institucional</h5>
+                        <iframe src="https://www.youtube.com/embed/videoseries?list=PLbEB0OYbh2RJvZlZazRvtKkw-YmZTDwwl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
 
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GA2gHK_gCa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </div>
+            </div>
         </section>
-        <!-- <section id="capCards" >
-            <div class="container">
-                <div class="card">
-                    <div class="cover">
-                        <i class="fab fa-google"></i>
-                        <h2>Central de Professores G Suite</h2>
-                    </div>
-                    <div class="description">
-                        <p>Espaço de treinamento <strong>gratuito</strong> da Google para capacitação de educadores para o uso de suas ferramentas na sala de aula.</p>
-                        <a target="_blank" href="https://edu.google.com/intl/pt-BR_ALL/teacher-center/training/?modal_active=none">Acesse Aqui!</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover">
-                        <i class="las la-book"></i>
-                        <h2>Formação Inicial G Edu JP</h2>
-                    </div>
-                    <div class="description">
-                        <p>Curso de formação de professores do ensino online da PMJP.</p>
-                        <a target="_blank" href="https://sites.google.com/educa.joaopessoa.pb.gov.br/gedu-jp-formaoinicial/">Acesse Aqui!</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover">
-                        <i class="las la-chalkboard-teacher"></i>
-                        <h2>Tutoriais</h2>
-                    </div>
-                    <div class="description">
-                        <p>Acervo de tutoriais <strong>guiados</strong> para uso das ferramentas da google no escopo da PMJP.</p>
-                        <a target="_blank" href="/tutoriais.html">Acesse Aqui!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-
-                <div class="card">
-                    <div class="cover">
-                        <i class="fab fa-google"></i>
-                        <h2>Central de Professores G Suite</h2>
-                    </div>
-                    <div class="description">
-                        <p>Espaço de treinamento <strong>gratuito</strong> da Google para capacitação de educadores para o uso de suas ferramentas na sala de aula.</p>
-                        <a target="_blank" href="https://edu.google.com/intl/pt-BR_ALL/teacher-center/training/?modal_active=none">Acesse Aqui!</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover">
-                        <i class="las la-book"></i>
-                        <h2>Formação Inicial G Edu JP</h2>
-                    </div>
-                    <div class="description">
-                        <p>Curso de formação de professores do ensino online da PMJP.</p>
-                        <a target="_blank" href="https://sites.google.com/educa.joaopessoa.pb.gov.br/gedu-jp-formaoinicial/">Acesse Aqui!</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cover">
-                        <i class="las la-chalkboard-teacher"></i>
-                        <h2>Tutoriais</h2>
-                    </div>
-                    <div class="description">
-                        <p>Acervo de tutoriais <strong>guiados</strong> para uso das ferramentas da google no escopo da PMJP.</p>
-                        <a target="_blank" href="/tutoriais.html">Acesse Aqui!</a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <!-- footer -->
         <footer class="footer">
@@ -201,13 +154,7 @@
           <h5 class="modal-title" id="exampleModalLabel"></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-            <iframe width="100%" src="https://www.youtube.com/embed/71zfxc7vSd0?autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> -->
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-        </div>
+
       </div>
     </div>
 </body>
