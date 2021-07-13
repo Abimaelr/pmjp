@@ -35,6 +35,20 @@ const classList = [{
 
 const tutoriais = [
     {
+        titulo: 'Email Institucional',
+        sub: 'Criando pelo Site',
+        source: 'https://drive.google.com/file/d/1WqB4aua7vyCMXXpkGvuEdfR4EnQl96MY/view?usp=sharing',
+        icon: 'assets/img/pmjp_icons/gmail.png',
+        className: 'gmail',
+    },
+    {
+        titulo: 'Email Institucional',
+        sub: 'Verificando pelo Site',
+        source: 'https://drive.google.com/file/d/1C07yIGG7MAtpnsNW4WGaF8U3EZdzET3i/view?usp=sharing',
+        icon: 'assets/img/pmjp_icons/gmail.png',
+        className: 'gmail',
+    },
+    {
         titulo: 'Google Agenda',
         sub: 'Como ter acesso ao Google Agenda',
         source: 'https://drive.google.com/file/d/1UQpqVBlqKZPGO8VejaZjfGbc9m6ph6uD/view?usp=sharing',
@@ -66,6 +80,13 @@ const tutoriais = [
         titulo: 'Google Agenda',
         sub: 'Criando Lembretes',
         source: 'https://drive.google.com/file/d/1--eRvKqj0DqSZj9i4uH2Zdt6_XLDuwJm/view?usp=sharing',
+        icon: 'assets/img/pmjp_icons/calendar.png',
+        className: 'g_agenda',
+    },
+    {
+        titulo: 'Google Agenda',
+        sub: 'Excluindo Lembretes',
+        source: 'https://drive.google.com/file/d/1wMHDupCaDe5m__LVgBsp0fhNxOLvNQsa/view?usp=sharing',
         icon: 'assets/img/pmjp_icons/calendar.png',
         className: 'g_agenda',
     },

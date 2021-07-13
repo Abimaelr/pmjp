@@ -63,3 +63,13 @@ p {
     width: 100%;
     margin: 20px 0;
 } */
+
+.youtube-video {
+    /* background-color: #C00812; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    /* width: 320px; */
+
+}
