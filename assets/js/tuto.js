@@ -766,7 +766,5 @@ tutoriais.forEach(item => {
     cardItem.appendChild(bodyCard);
 
     const carrouselItem = document.querySelector(`#${item.className}`);
-
     carrouselItem.appendChild(cardItem);
-
 })

@@ -73,3 +73,13 @@ p {
     /* width: 320px; */
 
 }
+
+.youtube-video iframe{
+    padding: 10px;
+    background-color: #c0081115;
+    border-radius: 5px;
+    width: 90%;
+    height: 500px;
+
+}
+
